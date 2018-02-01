@@ -12535,23 +12535,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Brandon\\.nuget\\packages\\": {},
+    "C:\\Users\\BDone\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\VS Code Workspace\\Fisher.Bookstore\\Fisher.Bookstore.csproj",
+      "projectUniqueName": "c:\\VS Code Workspace\\fisher-bookstore\\Fisher.Bookstore\\Fisher.Bookstore.csproj",
       "projectName": "Fisher.Bookstore",
-      "projectPath": "C:\\VS Code Workspace\\Fisher.Bookstore\\Fisher.Bookstore.csproj",
-      "packagesPath": "C:\\Users\\Brandon\\.nuget\\packages\\",
-      "outputPath": "C:\\VS Code Workspace\\Fisher.Bookstore\\obj\\",
+      "projectPath": "c:\\VS Code Workspace\\fisher-bookstore\\Fisher.Bookstore\\Fisher.Bookstore.csproj",
+      "packagesPath": "C:\\Users\\BDone\\.nuget\\packages\\",
+      "outputPath": "c:\\VS Code Workspace\\fisher-bookstore\\Fisher.Bookstore\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Brandon\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\BDone\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"
