@@ -7,17 +7,18 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Fisher.Bookstore.Controllers
 {
-    public class AuthorController : Controller
+    public class AuthorsController : Controller
     {
-        [Route("/authors")]
+        [Route("authors")]
+        [Route("authors/index")]
         public IActionResult Index()
         {
-            return Content("authors");
+            return View("Index");
         }
-        [Route("/authors/featured")]
+        [Route("authors/featured")]
         public IActionResult Featured()
         {
-            return Content("featured authors");
+            return View("Featured");
         }
     }
 }

@@ -9,15 +9,16 @@ namespace Fisher.Bookstore.Controllers
 {
     public class BooksController : Controller
     {
-        [Route("/books")]
+        [Route("books")]
+        [Route("books/index")]
         public IActionResult Index()
         {
-            return Content("books");
+            return View("Index");
         }
-        [Route("/books/new")]
+        [Route("books/new")]
         public IActionResult New()
         {
-            return Content("new books");
+            return View("New");
         }
     }
 }

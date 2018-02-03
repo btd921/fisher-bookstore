@@ -14,7 +14,7 @@ namespace Fisher.Bookstore.Controllers
         [Route("Home/Index")]
         public IActionResult Index()
         {
-            return Content("Hello World");
+            return View();
         }
     }
     

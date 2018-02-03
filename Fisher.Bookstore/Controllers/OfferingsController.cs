@@ -10,18 +10,18 @@ namespace Fisher.Bookstore.Controllers
 {
     public class OfferingsController : Controller
     {
-        [Route("Products")]
-        [Route("ProducesAttribute/Index")]
+        [Route("products")]
+        [Route("producesAttribute/Index")]
         public IActionResult Products()
         {
-            return Content("This is the products page.");
+            return View("Products");
         }
 
-        [Route("Services")]
-        [Route("Services/Index")]
+        [Route("services")]
+        [Route("services/Index")]
         public IActionResult Services()
         {
-            return Content("this is the Products page.");
+            return View("services");
         }
     }
 }
